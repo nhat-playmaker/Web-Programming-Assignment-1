@@ -14,3 +14,8 @@ Web Programming Assignment 1 - Semester 202
 - The designed interface must support responseive design in some many different devices such as PC, laptop, smart phone, tablet
 - Using framework, CSS and Java Script' library is acceptable
 - The source code must validate and fix bug by the online tool at [validator](https://validator.w3.org/)
+
+## Members ##
+- Thai Van Nhat - 1813381 
+- Bui Hoang Hai - 1920014 
+- Nguyen Thanh Phuc - 1512531
