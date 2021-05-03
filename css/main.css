@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+header, footer, aside, section, nav, article, figure, figcaption{
+	display: block;
+}
+
+body
+{ background-image:url(../images/bg.png);
+	background-size: 120em 100em;
+	background-repeat: no-repeat;
+}
+
+h1, h2, h3, {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+/*Navigation*/
+.nav {
+	margin: 0;
+	padding: 1px 0 0 70px;
+	width:100%;
+}
+
+.nav ul {
+	margin: 0px;
+	padding: 10px 0 0 0;
+
+}
+.nav li {
+	list-style: none;
+	float: left;
+	position: relative;
+	border: thin white solid;
+	padding: 10px;
+	background-color: #E6E6E6;
+}
+.nav li:hover {
+	border: think #e5e5e5 inset;
+	background-color: #DB0000;
+}
+.nav ul li a {
+	color: #2B2B2B;
+	text-align: center;
+	text-decoration: none;
+	width: 100px;
+	height: 20px;
+	display: block;
+}
+.nav ul ul {
+	position: absolute;
+	display: none;
+}
+.nav ul li:hover ul {
+	display: block;
+}
+
+
+#main-container{
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+	overflow:hidden;
+}
+.main-content{
+	width: 100%;
+	padding: 5em;
+}
+
+.side-content{
+	width: 700px;
+	float: left;
+	padding: 0px 20px 0px 0px;
+}
+
+.aside.sidebar{
+	width: 280px;
+	float: left;
+}
+
+
+/*gallery*/
+div.img {
+    margin: 20px;
+    padding: 0px;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border:1px solid #0000ff;
+}
+
+div.desc {
+    text-align: center;
+    font-weight: normal;
+    width: 130px;
+    margin: 25px;
+}
+
+/*faq*/
+.faq-section{
+	margin: 40px 0;
+	position: relative;
+}
+
+.faq-section p{
+	display: none;
+}
+
+.faq-section input{
+	position: absolute;
+	z-index: 2;
+	cursor: pointer;
+	opacity: 0;
+	margin: 0;
+	width: 100%;
+	height: 36px;
+}
+
+
+.faq-section label+p{
+	display: block;
+	color: #999;
+	font-size: .85em;
+	transition: all .15s ease-out;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.faq-section input[type=checkbox]:checked~p{
+	display: block;
+	color: #444;
+	font-size: 1em;
+	text-overflow: clip;
+	white-space: normal;
+	overflow: visible;
+}
+
+.faq-section label{
+	font-size: 1.2em;
+	background: #eee;
+	display: block;
+	position: relative;
+	height: 20px;
+	padding: 7px 10px;
+	font-weight: bold;
+	border: 1px solid #ddd;
+	border-left: 3px solid #888;
+	text-shadow: 0 1px 0 rgba(255,255,255,.5);
+	transition: all .15s ease-out;
+}
+
+.faq-section label::selection{
+	background: none;
+}
+
+.faq-section label:hover{
+	background: #f5f5f5;
+}
+
+.faq-section input[type=checkbox]:checked~label{
+	border-color: #ff7f50;
+	background: #f5deb4;
+	background-image: linear-gradient(to bottom, #fff, #f5deb4);
+	box-shadow: 0 0 1px rgba(0,0,0,.4);
+}
+
+.faq-section label::before{
+	content: '';
+	position: absolute;
+	right: 4px;
+	top: 50%;
+	margin-top: -6px;
+	border: 6px solid transparent;
+	border-left-color: inherit;
+}
+
+.faq-section input[type=checkbox]:checked~label::before{
+	border: 6px solid transparent;
+	border-top-color: inherit;
+	margin-top: -3px;
+	right: 10px;
+}
+
+
+/*homegallery*/
+.homegallery img{
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+-moz-opacity: 0.5;
+opacity: 0.5;
+}
+
+.homegallery:hover img{
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+-moz-opacity: 1;
+opacity: 1;
+}
+
+/* picture image */
+.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
+   filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+-moz-opacity: 0.5;
+opacity: 0.5;
+}
+
+
+.image:hover {
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+-moz-opacity: 1;
+opacity: 1;
+}
+
+h2 {
+   position: absolute;
+   top: 20px;
+   left: 0;
+   width: 100%;
+}
+
+h2 span {
+   color: white;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+}
+
+/*footer*/
+.footer {
+	clear: both;
+	background: #E6E6E6;
+	border-top: 5px solid #d71921;
+ 	position:absolute  bottom: 3;
+	text-align: center;
+	color: #000000;
+	width:100%;
+	height:160px;
+}
