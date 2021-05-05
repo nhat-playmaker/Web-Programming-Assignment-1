@@ -1,5 +1,5 @@
 # Version 0.0.2 (May 5th, 2021)
-- Updating "Contact and Find service" section
+- Initializing "Contact and Find service" section
 
 # Version 0.0.1 (May 4th, 2021)
 - Implementing ```homepage.html``` 
