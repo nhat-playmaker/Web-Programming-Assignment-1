@@ -758,6 +758,51 @@ color: #2282ff;
     margin-bottom: 15px;
 }
 
+/*--------------------------
+
+# Contact and Find Service
+
+---------------------------*/
+
+#select-service {
+    border: 1px solid grey;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 4px 4px 4px 4px;
+}
+
+#contact-name, #contact-content,
+#contact-email, #contact-phone {
+    border: 1px solid grey;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 4px 4px 4px 4px;
+}
+
+#contact-submit {
+    position: relative;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 6px 20px;
+    background: #d14141;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 4px 4px 4px 4px;
+    justify-content: center;
+}
+    
+#contact-submit:hover {
+    background: #4b4848;
+    box-shadow: 3px 3px 3px grey;
+}
+
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -1593,6 +1638,11 @@ background-color: #ebe8e8;
     width: 80%;
     height: 0px;
     border-bottom: 2px solid rgb(211, 24, 24);
-    margin-bottom: 10px;
-    position: absolute;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
 }
