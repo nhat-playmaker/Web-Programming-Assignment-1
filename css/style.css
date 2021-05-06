@@ -346,13 +346,24 @@ color: #fff;
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-width: 100%;
-height: calc(100vh - 72px);
-background: url("../images/pic01.jpg") center center;
-background-size: cover;
-position: relative;
-margin-top: 72px;
-padding: 0;
+    width: 100%;
+    height: calc(100vh - 72px);
+    background: url("../images/pic01.jpg") center center;
+    background-size: cover;
+    position: relative;
+    margin-top: 72px;
+    padding: 0;
+}
+
+#hero-product {
+    width: 100%;
+    height: calc(50vh - 72px);
+    background: url("../images/productpage/car01.jpg") center center;
+    background-size: cover;
+    position: relative;
+    margin-top: 72px;
+    margin-bottom: 20px;
+    padding: 0;
 }
 
 #hero:before {
